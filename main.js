@@ -4,7 +4,7 @@ var author;
 $(document).ready(function() {
   function getnewQuote() {
     $.ajax({
-      url: "//www.api.forismatic.com/api/1.0/",
+      url: "http://api.forismatic.com/api/1.0/",
       jsonp: "jsonp",
       dataType: "jsonp",
       data: {
